@@ -38,15 +38,3 @@
 2025 3 8 政治 宪法的地位，P24
 2025 3 8 政治 宪法的修改和其它法律的修改条件，P25
 2025 3 8 地理 新疆的生态环境问题和解决措施，P92
-2025 3 9 test test
-2025 3 9 test2 test2
-2025 3 9 test3 test3
-2025 3 9 test4 test4
-2025 3 9 test5 test5
-2025 3 9 test6 test6
-2025 3 9 test test
-2025 3 9 test7 test7
-2025 3 9 test t
-2025 3 9 test8 test8
-2025 3 9 test9 test9
-2025 3 9 test10!!!! test10!!!!

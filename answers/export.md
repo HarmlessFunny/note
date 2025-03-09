@@ -1,37 +1,5 @@
 ## 2025年3月9日
 
-### [test](test)
-- [test](test/test.md)
-- [test](test/test.md)
-- [t](test/t.md)
-
-### [test10!!!!](test10!!!!)
-- [test10!!!!](test10!!!!/test10!!!!.md)
-
-### [test2](test2)
-- [test2](test2/test2.md)
-
-### [test3](test3)
-- [test3](test3/test3.md)
-
-### [test4](test4)
-- [test4](test4/test4.md)
-
-### [test5](test5)
-- [test5](test5/test5.md)
-
-### [test6](test6)
-- [test6](test6/test6.md)
-
-### [test7](test7)
-- [test7](test7/test7.md)
-
-### [test8](test8)
-- [test8](test8/test8.md)
-
-### [test9](test9)
-- [test9](test9/test9.md)
-
 ### [地理](地理)
 - [新疆的生态环境问题和解决措施，P92](地理/新疆的生态环境问题和解决措施，P92.md)
 
