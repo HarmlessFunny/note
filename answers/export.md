@@ -12,6 +12,9 @@
 ### [test4](test4)
 - [test4](test4/test4.md)
 
+### [test5](test5)
+- [test5](test5/test5.md)
+
 ### [地理](地理)
 - [新疆的生态环境问题和解决措施，P92](地理/新疆的生态环境问题和解决措施，P92.md)
 
