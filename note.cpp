@@ -119,7 +119,7 @@ int main() {
 		system("git add .");
 		system(("git commit -m \""+dateString+"\"").c_str());
 		system("git remote add origin https://github.com/HarmlessFunny/note.git");
-		system("git push origin main");
+		system("git push -u origin main");
         auto item = chooseNotes(nowYear,nowMonth,nowDay);
     	exportNotesToMarkdown(item,dateString); 
     	
