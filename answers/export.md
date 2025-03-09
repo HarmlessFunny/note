@@ -23,6 +23,9 @@
 ### [test7](test7)
 - [test7](test7/test7.md)
 
+### [test8](test8)
+- [test8](test8/test8.md)
+
 ### [地理](地理)
 - [新疆的生态环境问题和解决措施，P92](地理/新疆的生态环境问题和解决措施，P92.md)
 
