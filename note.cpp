@@ -116,7 +116,7 @@ int main() {
 	    nowDay = localTime->tm_mday;
 	    
         string dateString = to_string(nowYear)+"Äê"+to_string(nowMonth)+"ÔÂ"+to_string(nowDay)+"ÈÕ";
-		system("git add .");
+		system("git add . -f");
 		system("git branch -M main");
 		system(("git commit -m \""+dateString+"\"").c_str());
 		system("git push -f origin main");
