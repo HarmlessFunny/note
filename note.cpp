@@ -151,6 +151,12 @@ int main() {
 		    file.close();
 	        system((".\\answers\\"+subject+"\\"+content+".md").c_str());
 		    cout << ">>已完成" << endl << endl;
+	        string dateString = to_string(nowYear)+"年"+to_string(nowMonth)+"月"+to_string(nowDay)+"日";
+			system("git add . -f");
+			system("git add ./answers/export.md -f");
+			system("git branch -M main");
+			system(("git commit -m \""+dateString+"\"").c_str());
+			system("git push -f origin main");
 	    }
 	    else if (n == "2") {
 	        if(!isFirstDateInput) cout << ">>请输入日期，输入格式：年(空格)月(空格)日" << endl << "<<";
