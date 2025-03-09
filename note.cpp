@@ -119,7 +119,7 @@ int main() {
 		system("git add .");
 		system("git branch -M main");
 		system(("git commit -m \""+dateString+"\"").c_str());
-		system("git push -u origin main");
+		system("git push -f origin main");
         auto item = chooseNotes(nowYear,nowMonth,nowDay);
     	exportNotesToMarkdown(item,dateString); 
     	
