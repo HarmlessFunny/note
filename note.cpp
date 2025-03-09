@@ -117,6 +117,7 @@ int main() {
 	    
         string dateString = to_string(nowYear)+"Äê"+to_string(nowMonth)+"ÔÂ"+to_string(nowDay)+"ÈÕ";
 		system("git add . -f");
+		system("git add ./answers/export.md -f");
 		system("git branch -M main");
 		system(("git commit -m \""+dateString+"\"").c_str());
 		system("git push -f origin main");
