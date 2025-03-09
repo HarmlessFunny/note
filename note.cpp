@@ -118,6 +118,8 @@ int main() {
         string dateString = to_string(nowYear)+"Äê"+to_string(nowMonth)+"ÔÂ"+to_string(nowDay)+"ÈÕ";
 		system("git add .");
 		system(("git commit -m \""+dateString+"\"").c_str());
+		system("git remote add origin https://github.com/HarmlessFunny/note.git");
+		
         auto item = chooseNotes(nowYear,nowMonth,nowDay);
     	exportNotesToMarkdown(item,dateString); 
     	
