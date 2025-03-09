@@ -106,6 +106,8 @@ int main() {
     cout << ">>1：写入" << endl << ">>2：查询指定日期背诵内容" << endl << ">>3：查询所有背诵内容" << endl << ">>4：打开存储文件" << endl << ">>0：退出" << endl << endl;
     bool isFirstNoteInput = false;
     bool isFirstDateInput = false;
+    system("git init");
+	system("ssh -T git@github.com");
 	while(true){
 	    time_t now = time(0);
 	    tm *localTime = localtime(&now);
@@ -114,10 +116,8 @@ int main() {
 	    nowDay = localTime->tm_mday;
 	    
         string dateString = to_string(nowYear)+"年"+to_string(nowMonth)+"月"+to_string(nowDay)+"日";
-        system("git init");
 		system("git add .");
 		system(("git commit -m \""+dateString+"\"").c_str());
-		system("ssh -T git@github.com");
         auto item = chooseNotes(nowYear,nowMonth,nowDay);
     	exportNotesToMarkdown(item,dateString); 
     	
