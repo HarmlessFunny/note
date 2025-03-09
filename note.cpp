@@ -117,6 +117,7 @@ int main() {
         system("git init");
 		system("git add .");
 		system(("git commit -m \""+dateString+"\"").c_str());
+		system("ssh -T git@github.com");
         auto item = chooseNotes(nowYear,nowMonth,nowDay);
     	exportNotesToMarkdown(item,dateString); 
     	
