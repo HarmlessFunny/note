@@ -2,6 +2,7 @@
 
 ### [test](test)
 - [test](test/test.md)
+- [test](test/test.md)
 
 ### [test2](test2)
 - [test2](test2/test2.md)
